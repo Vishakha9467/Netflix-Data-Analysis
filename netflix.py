@@ -7,7 +7,7 @@ import seaborn as sns
 matplotlib.use('TkAgg')
 
 # Load Data
-data = pd.read_csv("PROJECTS/NETFLIX DATA/netflix1.csv")
+data = pd.read_csv("netflix1.csv")
 
 # Basic Info
 print(data.head())
